@@ -1,26 +1,25 @@
-package cn.droidlover.xdroid.demo.adapter;
+package cn.droidlover.xdroid.teaism.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
-import android.widget.LinearLayout;
-import android.widget.TextView;
+import android.widget.ImageView;
 
 import butterknife.BindView;
 import cn.droidlover.xdroid.base.SimpleRecAdapter;
-import cn.droidlover.xdroid.demo.R;
-import cn.droidlover.xdroid.demo.model.GankResults;
+import cn.droidlover.xdroid.teaism.R;
+import cn.droidlover.xdroid.teaism.model.GankResults;
 import cn.droidlover.xdroid.kit.KnifeKit;
+import cn.droidlover.xdroidbase.imageloader.ILFactory;
 
 /**
  * Created by wanglei on 2016/12/10.
  */
 
-public class GanhuoAdapter extends SimpleRecAdapter<GankResults.Item, GanhuoAdapter.ViewHolder> {
+public class GirlAdapter extends SimpleRecAdapter<GankResults.Item, GirlAdapter.ViewHolder> {
 
-    public static final int TAG_VIEW = 0;
 
-    public GanhuoAdapter(Context context) {
+    public GirlAdapter(Context context) {
         super(context);
     }
 
@@ -31,19 +30,20 @@ public class GanhuoAdapter extends SimpleRecAdapter<GankResults.Item, GanhuoAdap
 
     @Override
     public int getLayoutId() {
-        return R.layout.adapter_ganhuo;
+        return R.layout.adapter_girl;
     }
 
     @Override
-    public void onBindViewHolder(final ViewHolder holder, final int position) {
-        final GankResults.Item item = data.get(position);
-        holder.tvItem.setText(item.getDesc());
+    public void onBindViewHolder(ViewHolder holder, int position) {
+        GankResults.Item item = data.get(position);
+
+        ILFactory.getLoader().loadNet(holder.ivGirl, item.getUrl(), null);
 
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (getRecItemClick() != null) {
-                    getRecItemClick().onItemClick(position, item, TAG_VIEW, holder);
+
                 }
             }
         });
@@ -51,14 +51,12 @@ public class GanhuoAdapter extends SimpleRecAdapter<GankResults.Item, GanhuoAdap
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
 
-
-        @BindView(R.id.tv_item)
-        TextView tvItem;
+        @BindView(R.id.iv_girl)
+        ImageView ivGirl;
 
         public ViewHolder(View itemView) {
             super(itemView);
             KnifeKit.bind(this, itemView);
         }
     }
-
 }

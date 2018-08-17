@@ -1,4 +1,4 @@
-package cn.droidlover.xdroid.demo.model;
+package cn.droidlover.xdroid.teaism.model;
 
 /**
  * Created by wanglei on 2016/12/11.

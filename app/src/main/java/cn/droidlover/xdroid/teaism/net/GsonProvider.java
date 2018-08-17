@@ -1,4 +1,4 @@
-package cn.droidlover.xdroid.demo.net;
+package cn.droidlover.xdroid.teaism.net;
 
 import com.google.gson.Gson;
 

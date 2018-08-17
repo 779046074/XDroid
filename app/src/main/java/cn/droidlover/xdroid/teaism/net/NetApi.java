@@ -1,13 +1,11 @@
-package cn.droidlover.xdroid.demo.net;
+package cn.droidlover.xdroid.teaism.net;
 
 import com.zhy.http.okhttp.OkHttpUtils;
 import com.zhy.http.okhttp.callback.Callback;
 
-import org.json.JSONArray;
-
 import java.util.HashMap;
 
-import cn.droidlover.xdroid.demo.model.GankResults;
+import cn.droidlover.xdroid.teaism.model.GankResults;
 
 /**
  * Created by wanglei on 2016/12/9.

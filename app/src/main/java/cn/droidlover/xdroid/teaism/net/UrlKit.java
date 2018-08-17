@@ -1,4 +1,4 @@
-package cn.droidlover.xdroid.demo.net;
+package cn.droidlover.xdroid.teaism.net;
 
 /**
  * Created by wanglei on 2016/12/9.

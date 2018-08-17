@@ -1,4 +1,4 @@
-package cn.droidlover.xdroid.demo.ui;
+package cn.droidlover.xdroid.teaism.ui;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -8,8 +8,8 @@ import android.view.View;
 import butterknife.BindView;
 import butterknife.OnClick;
 import cn.droidlover.xdroid.base.XActivity;
-import cn.droidlover.xdroid.demo.R;
-import cn.droidlover.xdroid.demo.model.Event;
+import cn.droidlover.xdroid.teaism.R;
+import cn.droidlover.xdroid.teaism.model.Event;
 import cn.droidlover.xdroid.event.BusFactory;
 import cn.droidlover.xdroidbase.router.Router;
 

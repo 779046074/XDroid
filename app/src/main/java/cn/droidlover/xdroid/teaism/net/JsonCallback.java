@@ -1,16 +1,14 @@
-package cn.droidlover.xdroid.demo.net;
+package cn.droidlover.xdroid.teaism.net;
 
 import android.text.TextUtils;
-import android.util.Log;
 
 import com.zhy.http.okhttp.callback.Callback;
 
 import java.lang.reflect.ParameterizedType;
 import java.net.UnknownHostException;
-import java.util.concurrent.ThreadPoolExecutor;
 
-import cn.droidlover.xdroid.demo.App;
-import cn.droidlover.xdroid.demo.kit.AppKit;
+import cn.droidlover.xdroid.teaism.App;
+import cn.droidlover.xdroid.teaism.kit.AppKit;
 import cn.droidlover.xdroidbase.cache.DiskCache;
 import okhttp3.Call;
 import okhttp3.MediaType;

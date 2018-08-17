@@ -1,4 +1,4 @@
-package cn.droidlover.xdroid.demo;
+package cn.droidlover.xdroid.teaism;
 
 import android.app.Application;
 import android.content.Context;

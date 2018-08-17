@@ -1,4 +1,4 @@
-package cn.droidlover.xdroid.demo.ui;
+package cn.droidlover.xdroid.teaism.ui;
 
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
@@ -16,8 +16,8 @@ import java.util.List;
 
 import butterknife.BindView;
 import cn.droidlover.xdroid.base.XActivity;
-import cn.droidlover.xdroid.demo.R;
-import cn.droidlover.xdroid.demo.model.Event;
+import cn.droidlover.xdroid.teaism.R;
+import cn.droidlover.xdroid.teaism.model.Event;
 import cn.droidlover.xdroidbase.base.XFragmentAdapter;
 import cn.droidlover.xdroidbase.kit.Kits;
 

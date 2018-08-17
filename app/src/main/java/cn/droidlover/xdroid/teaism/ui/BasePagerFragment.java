@@ -1,4 +1,4 @@
-package cn.droidlover.xdroid.demo.ui;
+package cn.droidlover.xdroid.teaism.ui;
 
 import android.os.Bundle;
 import android.view.View;
@@ -6,10 +6,10 @@ import android.view.View;
 import butterknife.BindView;
 import cn.droidlover.xdroid.base.SimpleRecAdapter;
 import cn.droidlover.xdroid.base.XLazyFragment;
-import cn.droidlover.xdroid.demo.R;
-import cn.droidlover.xdroid.demo.model.GankResults;
-import cn.droidlover.xdroid.demo.net.JsonCallback;
-import cn.droidlover.xdroid.demo.net.NetApi;
+import cn.droidlover.xdroid.teaism.R;
+import cn.droidlover.xdroid.teaism.model.GankResults;
+import cn.droidlover.xdroid.teaism.net.JsonCallback;
+import cn.droidlover.xdroid.teaism.net.NetApi;
 import cn.droidlover.xrecyclerview.XRecyclerContentLayout;
 import cn.droidlover.xrecyclerview.XRecyclerView;
 import okhttp3.Call;

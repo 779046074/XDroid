@@ -1,4 +1,4 @@
-package cn.droidlover.xdroid.demo.ui;
+package cn.droidlover.xdroid.teaism.ui;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -16,8 +16,8 @@ import android.webkit.WebViewClient;
 
 import butterknife.BindView;
 import cn.droidlover.xdroid.base.XActivity;
-import cn.droidlover.xdroid.demo.R;
-import cn.droidlover.xdroid.demo.kit.AppKit;
+import cn.droidlover.xdroid.teaism.R;
+import cn.droidlover.xdroid.teaism.kit.AppKit;
 import cn.droidlover.xdroidbase.router.Router;
 import cn.droidlover.xstatecontroller.XStateController;
 

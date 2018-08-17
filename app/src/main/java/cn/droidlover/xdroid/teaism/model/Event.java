@@ -1,4 +1,4 @@
-package cn.droidlover.xdroid.demo.model;
+package cn.droidlover.xdroid.teaism.model;
 
 import cn.droidlover.xdroid.event.IBus;
 

@@ -1,4 +1,4 @@
-package cn.droidlover.xdroid.demo.kit;
+package cn.droidlover.xdroid.teaism.kit;
 
 import android.content.ClipData;
 import android.content.ClipboardManager;
